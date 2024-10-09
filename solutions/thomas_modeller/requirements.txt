@@ -1,5 +1,0 @@
-conda install pandas #Følger med numpy
-conda install scikit-learn
-conda install xgboost
-conda install geopy
-conda install matplotlib #optional
