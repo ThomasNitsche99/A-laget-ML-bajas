@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 
 # Step 1: Load the AIS dataset
-df = pd.read_csv('/Users/eivindmidtbo/Desktop/dev/Maskinlaering_i_praksis/A-laget-ML-bajas/data/ais_train.csv', sep='|')
+df = pd.read_csv('/Users/eivindmidtbo/Desktop/dev/Maskinlaering_i_praksis/A-laget-ML-bajas/data/cleaned_data/ais_train_cleaned2.csv', sep='|')
 
 # Step 2: Convert the 'time' column to datetime format (if needed)
 df['time'] = pd.to_datetime(df['time'])
